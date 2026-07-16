@@ -1,0 +1,17 @@
+# MCP Inventory — CLIENT dependencies
+# Install with: pip install -r requirements-client.txt
+
+# MCP framework
+mcp[cli]>=1.9.0
+
+# LLM
+openai>=1.35.0
+
+# CLI / UI
+rich>=13.7.0
+typer>=0.12.0
+
+# Config / validation
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+python-dotenv>=1.0.0
